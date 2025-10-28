@@ -3,7 +3,7 @@
 
 void debugFunction1(std::string a)
 {
-//  std::cout << a << std::endl;
+ std::cout << a << std::endl;
 }
 
 
@@ -49,6 +49,6 @@ void badFree()
 
 void badAlloc()
 {
-  // int *array = (int *) malloc(-3);
+  int *array = (int *) malloc(-3);
 
 }
